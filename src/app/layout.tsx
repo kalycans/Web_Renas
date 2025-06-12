@@ -5,7 +5,7 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Persona Comunicare',
+  title: 'user persona',
   description: 'Personal website of a communication specialist.',
 };
 

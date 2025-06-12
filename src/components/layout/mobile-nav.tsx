@@ -26,7 +26,7 @@ export function MobileNav() {
           <div className="flex flex-col space-y-4">
             <div className="flex justify-between items-center mb-4">
                 <Link href="/" className="text-xl font-bold text-primary" onClick={() => setIsOpen(false)}>
-                    Persona Comunicare
+                    User Persona
                 </Link>
                 <SheetClose asChild>
                     <Button variant="ghost" size="icon">

@@ -14,9 +14,8 @@ export default function HomePage() {
             <Image
               src="https://firebasestudio.googleapis.com/v0/b/apphosting-9721d.appspot.com/o/images%2FJX4hHh21Hj%2FRenas_Tasya_Putri_profile.jpg?alt=media&token=c220f188-4f19-482d-bdc1-ff8254c46c3b"
               alt="Renas Tasya Putri"
-              layout="fill"
-              objectFit="cover"
-              className="transform hover:scale-105 transition-transform duration-300"
+              fill
+              className="object-cover transform hover:scale-105 transition-transform duration-300"
               data-ai-hint="woman suit"
             />
           </div>

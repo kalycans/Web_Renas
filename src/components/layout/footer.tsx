@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-border/40 bg-background">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row sm:px-6 lg:px-8">
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Persona Comunicare. All rights reserved.
+          &copy; {new Date().getFullYear()} User Persona. All rights reserved.
         </p>
         <div className="flex items-center space-x-2">
           {SOCIAL_LINKS.map((link) => (
