@@ -1,0 +1,3 @@
+This is a placeholder CV for Persona Comunicare.
+Please replace this file with the actual CV in PDF format.
+Make sure the filename matches the one in `src/lib/constants.ts` (CV_DOWNLOAD_LINK).
