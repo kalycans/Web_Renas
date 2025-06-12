@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { DownloadCloud, ArrowRight } from 'lucide-react';
 import { CV_DOWNLOAD_LINK } from '@/lib/constants';
 
@@ -12,11 +11,11 @@ export default function HomePage() {
         <div className="md:col-span-2 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-xl border-4 border-primary/20">
             <Image
-              src="/images/ahyeon.jpg"
+              src="/images/ahyeon.jpg" // Path relatif ke folder public
               alt="Renas Tasya Putri"
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority
+              fill // Menggunakan fill agar gambar mengisi div parent
+              sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, 384px" // Membantu Next.js mengoptimalkan gambar untuk berbagai ukuran layar
+              priority // Memprioritaskan pemuatan gambar ini (LCP)
               className="object-cover transform hover:scale-105 transition-transform duration-300"
               data-ai-hint="woman portrait"
             />
