@@ -24,14 +24,20 @@ export default function ContactPage() {
           <CardContent className="space-y-4">
             <div>
               <h3 className="text-lg font-semibold text-foreground">Email</h3>
-              <a href="mailto:your.email@example.com" className="text-accent-foreground hover:underline break-all">
-                your.email@example.com
+              <a
+                href="https://mail.google.com/mail/?view=cm&to=kalycasalwa04@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-foreground hover:underline break-all"
+              >
+                kalycasalwa04@gmail.com
               </a>
+
             </div>
             <div>
               <h3 className="text-lg font-semibold text-foreground">WhatsApp</h3>
-              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-accent-foreground hover:underline">
-                +1 (234) 567-890 (Click to chat)
+              <a href="https://wa.me/085692424494" target="_blank" rel="noopener noreferrer" className="text-accent-foreground hover:underline">
+                +62 85692424494 (Click to chat)
               </a>
               <p className="text-xs text-muted-foreground mt-1">Please replace with your actual WhatsApp number or link.</p>
             </div>

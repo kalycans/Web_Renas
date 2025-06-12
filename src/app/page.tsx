@@ -11,11 +11,7 @@ export default function HomePage() {
         <div className="md:col-span-2 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-xl border-4 border-primary/20">
             <Image
-<<<<<<< HEAD
               src="/image/rere.jpeg" // Path relatif ke folder public
-=======
-              src="/images/ahyeon.jpg" // Path relatif ke folder public
->>>>>>> a2d93e83e98f94c6bb0cea1df5f842d44d61650b
               alt="Renas Tasya Putri"
               fill // Menggunakan fill agar gambar mengisi div parent
               sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, 384px" // Membantu Next.js mengoptimalkan gambar untuk berbagai ukuran layar
