@@ -12,11 +12,13 @@ export default function HomePage() {
         <div className="md:col-span-2 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-xl border-4 border-primary/20">
             <Image
-              src="https://firebasestudio.googleapis.com/v0/b/apphosting-9721d.appspot.com/o/images%2FJX4hHh21Hj%2FRenas_Tasya_Putri_profile.jpg?alt=media&token=c220f188-4f19-482d-bdc1-ff8254c46c3b"
+              src="/images/ahyeon.jpg"
               alt="Renas Tasya Putri"
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
               className="object-cover transform hover:scale-105 transition-transform duration-300"
-              data-ai-hint="woman suit"
+              data-ai-hint="woman portrait"
             />
           </div>
         </div>
