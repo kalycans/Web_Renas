@@ -12,18 +12,18 @@ export default function HomePage() {
         <div className="md:col-span-2 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-xl border-4 border-primary/20">
             <Image
-              src="https://placehold.co/400x400.png"
-              alt="Personal Photo"
+              src="https://firebasestudio.googleapis.com/v0/b/apphosting-9721d.appspot.com/o/images%2FJX4hHh21Hj%2FRenas_Tasya_Putri_profile.jpg?alt=media&token=c220f188-4f19-482d-bdc1-ff8254c46c3b"
+              alt="Renas Tasya Putri"
               layout="fill"
               objectFit="cover"
               className="transform hover:scale-105 transition-transform duration-300"
-              data-ai-hint="professional woman"
+              data-ai-hint="woman suit"
             />
           </div>
         </div>
         <div className="md:col-span-3 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-primary mb-6">
-            Hello, I'm [Your Name]
+            Hello, I'm Renas Tasya Putri
           </h1>
           <p className="text-lg sm:text-xl text-foreground/80 mb-8 leading-relaxed text-balance">
             A passionate and dynamic communication specialist with a knack for crafting compelling narratives and fostering meaningful connections. Explore my journey and discover how my skills can bring value to your projects.
