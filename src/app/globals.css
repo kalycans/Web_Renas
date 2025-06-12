@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 98%; /* Light beige #FAF9F6 */
+    --foreground: 43 27% 33%; /* Coklat tua olive #6C5E3B */
+
+    --card: 60 56% 94%; /* Soft beige #F5F5DC */
+    --card-foreground: 43 27% 33%; /* Coklat tua olive #6C5E3B */
+
+    --popover: 60 56% 94%; /* Soft beige #F5F5DC */
+    --popover-foreground: 43 27% 33%; /* Coklat tua olive #6C5E3B */
+
+    --primary: 40 33% 59%; /* Coklat karamel #C1A471 */
+    --primary-foreground: 0 0% 100%; /* White for contrast on primary */
+
+    --secondary: 46 80% 93%; /* Lighter Kuning muda pastel #FFF8E6 - for subtle secondary elements */
+    --secondary-foreground: 43 27% 33%; /* Coklat tua olive #6C5E3B */
+
+    --muted: 60 50% 90%; /* Muted Soft beige */
+    --muted-foreground: 43 25% 45%; /* Lighter Coklat tua olive */
+
+    --accent: 46 100% 91%; /* Kuning muda pastel #FFF6D5 */
+    --accent-foreground: 43 27% 33%; /* Coklat tua olive #6C5E3B */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 40 20% 88%; /* Slightly darker Light beige */
+    --input: 40 20% 88%; /* Slightly darker Light beige */
+    --ring: 40 33% 59%; /* Coklat karamel #C1A471 */
+
+    --radius: 0.5rem;
+
+    /* Sidebar specific colors, can keep default or adjust if sidebar is heavily used */
+    --sidebar-background: 40 33% 97%; /* Slightly off from main background */
+    --sidebar-foreground: 43 27% 33%;
+    --sidebar-primary: 40 33% 59%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 46 100% 91%;
+    --sidebar-accent-foreground: 43 27% 33%;
+    --sidebar-border: 40 20% 85%;
+    --sidebar-ring: 40 33% 59%;
+  }
+
+  .dark {
+    /* Define dark theme based on the light theme structure if needed, or keep defaults if not a primary focus */
+    --background: 43 15% 15%; /* Dark olive/brown base */
+    --foreground: 40 33% 90%; /* Light beige for text */
+
+    --card: 43 15% 20%;
+    --card-foreground: 40 33% 90%;
+
+    --popover: 43 15% 20%;
+    --popover-foreground: 40 33% 90%;
+
+    --primary: 40 33% 65%; /* Slightly lighter Coklat karamel for dark mode */
+    --primary-foreground: 43 27% 10%; /* Dark text for contrast */
+
+    --secondary: 43 15% 25%;
+    --secondary-foreground: 40 33% 90%;
+
+    --muted: 43 15% 22%;
+    --muted-foreground: 40 33% 70%;
+
+    --accent: 46 70% 50%; /* Darker, saturated Kuning muda pastel */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 43 15% 28%;
+    --input: 43 15% 28%;
+    --ring: 40 33% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    @apply font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
