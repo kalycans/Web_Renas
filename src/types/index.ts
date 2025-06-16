@@ -11,6 +11,7 @@ export interface Project {
   description: string; // Used for AI summary
   reflectiveNarrative: string; // Displayed on card
   imageUrl: string;
+  youtubeEmbedUrl?: string // ✅ ditambahkan di sini
   imageAlt: string;
   dataAiHint: string;
 }

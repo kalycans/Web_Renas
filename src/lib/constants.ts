@@ -1,83 +1,81 @@
-import type { NavItem, Project, SocialLink } from '@/types';
-import { Home, User, Briefcase, Mail, Linkedin, Instagram, Github, MessageSquare, DownloadCloud } from 'lucide-react';
+import type { NavItem, Project, SocialLink } from '@/types'
+import { Mail, Instagram, MessageSquare } from 'lucide-react'
 
 export const NAV_ITEMS: NavItem[] = [
   { title: 'Home', href: '/' },
   { title: 'About Me', href: '/about' },
   { title: 'Projects', href: '/projects' },
   { title: 'Contact', href: '/contact' },
-];
+]
 
 export const PROJECTS_DATA: Project[] = [
   {
     id: '1',
-    title: "Kampanye Digital Anti Perundungan",
-    description: "Proyek kampanye media sosial untuk meningkatkan kesadaran tentang bullying di kalangan remaja.",
-    imageUrl: "/image/kampanye.jpg",
-    imageAlt: "Poster kampanye anti perundungan",
+    title: "Asisten Dosen - Agama Islam (2023)",
+    description: "Saya dipercaya menjadi asisten dosen dalam mata kuliah Pendidikan Agama Islam.",
+    imageUrl: "/image/asdos-rere.jpg",
+    imageAlt: "Poster Asisten Dosen",
     reflectiveNarrative:
-      "Dalam proyek ini, saya belajar menyusun strategi komunikasi digital yang relevan dan menyentuh. Saya ikut merancang konten Instagram dan mengatur jadwal posting, sekaligus mengevaluasi hasilnya lewat insight dan engagement rate.",
-    dataAiHint: "kampanye-komunikasi",
+      "Dalam peran ini, saya membantu rekapitulasi nilai, membimbing mahasiswa tingkat bawah dalam proses belajar, serta terlibat aktif dalam kegiatan sosial seperti kajian dan diskusi keagamaan. Peran ini memberi saya pemahaman mendalam tentang tanggung jawab akademik sekaligus memperkuat nilai-nilai spiritual dalam komunikasi sehari-hari.",
+    dataAiHint: "Asisten Dosen",
   },
   {
     id: '2',
-    title: "Podcast 'Suara Mahasiswa'",
-    description: "Podcast mingguan yang membahas isu-isu sosial dari perspektif mahasiswa.",
-    imageUrl: "/image/podcast.png",
-    imageAlt: "Ilustrasi mikrofon podcast",
+    title: "News Anchor - Magang di Untirta TV",
+    description: "Dalam program magang di Untirta TV, saya berperan sebagai news anchor.",
+    imageUrl: "/image/asdos-rere.jpg",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/0nT1ByA_vv8", 
+    imageAlt: "Video Magang Untirta TV",
     reflectiveNarrative:
-      "Saya menjadi host sekaligus editor podcast. Dari proses ini, saya banyak belajar tentang pentingnya flow dalam percakapan, memilih narasumber yang relevan, dan menyunting audio agar tetap enak didengar.",
-    dataAiHint: "podcast-komunikasi",
+      "Dalam program magang di Untirta TV, saya berperan sebagai news anchor yang membawakan berita terbaru secara langsung di platform YouTube nya Untirta TV. Pengalaman ini memperluas wawasan saya di bidang jurnalistik dan media siar, sekaligus mengasah kemampuan public speaking, penampilan di depan kamera, dan penulisan naskah berita secara profesional.",
+    dataAiHint: "News Anchor",
   },
   {
     id: '3',
-    title: "Majalah Digital Kampus",
-    description: "Menyusun dan merancang majalah digital edisi khusus kegiatan kampus.",
-    imageUrl: "/image/majalah-digital.jpg",
-    imageAlt: "Cover majalah digital kampus",
+    title: "Volunteer - Desa Energi Berdikari Sobat Bumi",
+    description: "Saya terlibat sebagai volunteer dalam program Desa Energi Berdikari yang diselenggarakan oleh para penerima Beasiswa Sobat Bumi Pertamina Foundation.",
+    imageUrl: "/image/rere-relawan.jpeg",
+    imageAlt: "Kegiatan relawan Sobat Bumi",
     reflectiveNarrative:
-      "Saya bertanggung jawab sebagai editor konten. Proyek ini mengasah kemampuan saya dalam menyunting artikel, menulis feature story, dan bekerja sama dengan tim desain untuk menghasilkan layout yang menarik.",
-    dataAiHint: "majalah-komunikasi",
+      "Program ini berfokus pada pembangunan desa berbasis energi bersih dan terbarukan serta pemberdayaan masyarakat sebagai bagian dari upaya pencapaian tujuan SDGs (Sustainable Development Goals). Dalam peran ini, saya turun langsung ke masyarakat, membantu pelaksanaan program, serta berinteraksi dengan warga desa untuk mendukung penerapan solusi berkelanjutan. Pengalaman ini mengajarkan saya tentang pentingnya komunikasi lapangan yang empatik, kolaboratif, dan berorientasi pada perubahan nyata.",
+    dataAiHint: "Volunteer",
   },
   {
     id: '4',
-    title: "Liputan Video Kegiatan Sosial",
-    description: "Pembuatan video dokumenter kegiatan sosial di wilayah pinggiran kota.",
-    imageUrl: "/image/liputan-video.jpg",
-    imageAlt: "Cuplikan video kegiatan sosial",
+    title: "Kepala Departemen Pengabdian Masyarakat - HIMA Ilmu Komunikasi",
+    description: "Sebagai Kepala Departemen Pengabdian Masyarakat di HIMA Ilmu Komunikasi",
+    imageUrl: "/image/himakom-rere.jpeg", 
+    imageAlt: "Remaja presentasi di depan kelas",
     reflectiveNarrative:
-      "Saya menjadi juru kamera sekaligus editor. Tantangannya adalah menangkap momen yang spontan namun tetap bercerita. Dari sini saya belajar storytelling visual dan teknik pengambilan gambar yang efektif.",
-    dataAiHint: "liputan-komunikasi",
+      "Saya memegang keputusan strategis terkait bentuk kegiatan, menyusun rencana kerja, serta mengoordinasikan tim pelaksana dalam menjalankan kegiatan sosial yang berdampak. Peran ini menantang sekaligus memperkuat kemampuan saya dalam kepemimpinan, manajemen program, dan komunikasi lintas struktur organisasi.",
+    dataAiHint: "Himpunan Mahasiswa Ilmu Komunikasi",
   },
   {
     id: '5',
-    title: "Pelatihan Public Speaking untuk Remaja",
-    description: "Menjadi fasilitator dalam pelatihan berbicara di depan umum bagi pelajar SMA.",
-    imageUrl: "/image/public-speaking.jpg",
-    imageAlt: "Remaja presentasi di depan kelas",
-    reflectiveNarrative: 
-      "Saya menyusun materi, memandu sesi, dan memberikan umpan balik secara langsung. Dari pengalaman ini, saya belajar bahwa menjadi komunikator bukan hanya soal berbicara, tapi juga mendengarkan dengan empati.",
-    dataAiHint: "public-speaking-kom",
+    title: "Humas & Tiketing - The Power of Communication (2023)",
+    description: "Humas sekaligus penanggung jawab Tiketing di acara tahunan HiMaKom.",
+    imageUrl: "/image/depoc-rere.jpg",
+    imageAlt: "The Power of Communication (2023)",
+    reflectiveNarrative:
+      "Sebagai Kepala Departemen Pengabdian Masyarakat di Himpunan Mahasiswa Ilmu Komunikasi, saya bertanggung jawab atas arah dan pelaksanaan seluruh program pengabdian. Saya memegang keputusan strategis terkait bentuk kegiatan, menyusun rencana kerja, serta mengoordinasikan tim pelaksana dalam menjalankan kegiatan sosial yang berdampak. Peran ini menantang sekaligus memperkuat kemampuan saya dalam kepemimpinan, manajemen program, dan komunikasi lintas struktur organisasi.",
+    dataAiHint: "Humas & Tiketing",
   },
   {
     id: '6',
-    title: "Pembuatan Konten TikTok Edukatif",
-    description: "Membuat video pendek bertema edukasi komunikasi untuk platform TikTok.",
-    imageUrl: "/image/buat-konten.jpg",
-    imageAlt: "Thumbnail konten TikTok",
+    title: "KOMEDI (Komunikasi Mengabdi) 2024",
+    description: "Sebagai ketua pelaksana acara KOMEDI, saya memimpin seluruh proses perencanaan hingga pelaksanaan kegiatan pengabdian masyarakat yang melibatkan mahasiswa Ilmu Komunikasi. ",
+    imageUrl: "/image/komedi-rere.jpg",
+    imageAlt: "The Power of Communication (2023)",
     reflectiveNarrative:
-      "Saya memproduksi konten dari ide hingga editing. Tantangannya adalah menyampaikan pesan yang bermakna dalam durasi singkat. Proyek ini membuat saya sadar pentingnya relevansi dan gaya bahasa yang sesuai dengan audiens muda.",
-    dataAiHint: "konten-komunikasi",
+      "Saya bertanggung jawab atas koordinasi tim, alur kegiatan, dan keberhasilan acara secara keseluruhan. Pengalaman ini membentuk kepemimpinan saya dalam konteks nyata dan memperkuat semangat kolaboratif untuk menciptakan program yang berdampak langsung pada masyarakat.",
+    dataAiHint: "KOMEDI 2024",
   },
-];
-
+]
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { name: 'Email', url: 'https://mail.google.com/mail/?view=cm&to=kalycasalwa04@gmail.com', icon: Mail },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/yourprofile', icon: Linkedin },
-  { name: 'Instagram', url: 'https://instagram.com/kalycanss', icon: Instagram },
-  { name: 'GitHub', url: 'https://github.com/kalycans', icon: Github },
-  { name: 'WhatsApp', url: 'https://wa.me/085692424494', icon: MessageSquare }, // Replace with actual WhatsApp number
-];
+  { name: 'Email', url: 'https://mail.google.com/mail/?view=cm&to=renastasyap@gmail.com', icon: Mail },
+  { name: 'Instagram', url: 'https://instagram.com/nstsyaptrii_', icon: Instagram },
+  { name: 'WhatsApp', url: 'https://wa.me/6285716569714', icon: MessageSquare },
+]
 
-export const CV_DOWNLOAD_LINK = 'For_RereCantik.pdf'; // User should place their CV here
+export const CV_DOWNLOAD_LINK = 'public/CV_RenasTasyaPutri.pdf'

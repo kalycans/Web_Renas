@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="md:col-span-2 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-xl border-4 border-primary/20">
             <Image
-              src="/image/rere.jpeg" // Path relatif ke folder public
+              src="/image/rere-profil.jpg" // Path relatif ke folder public
               alt="Renas Tasya Putri"
               fill // Menggunakan fill agar gambar mengisi div parent
               sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, 384px" // Membantu Next.js mengoptimalkan gambar untuk berbagai ukuran layar
@@ -26,7 +26,7 @@ export default function HomePage() {
             Hello, I'm Renas Tasya Putri
           </h1>
           <p className="text-lg sm:text-xl text-foreground/80 mb-8 leading-relaxed text-balance">
-            A passionate and dynamic communication specialist with a knack for crafting compelling narratives and fostering meaningful connections. Explore my journey and discover how my skills can bring value to your projects.
+            Communication Student & Social Contributor
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button size="lg" asChild className="shadow-md hover:shadow-lg transition-shadow duration-300">
