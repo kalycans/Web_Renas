@@ -54,7 +54,7 @@ export const PROJECTS_DATA: Project[] = [
     id: '5',
     title: "Humas & Tiketing - The Power of Communication",
     description: "Humas sekaligus penanggung jawab Tiketing di acara tahunan HiMaKom.",
-    imageUrl: "/image/depoc-rere.jpg",
+    imageUrl: "/image/depoc-rere1.jpg",
     imageAlt: "The Power of Communication (2023)",
     reflectiveNarrative:
       "Sebagai Kepala Departemen Pengabdian Masyarakat di Himpunan Mahasiswa Ilmu Komunikasi, saya bertanggung jawab atas arah dan pelaksanaan seluruh program pengabdian. Saya memegang keputusan strategis terkait bentuk kegiatan, menyusun rencana kerja, serta mengoordinasikan tim pelaksana dalam menjalankan kegiatan sosial yang berdampak. Peran ini menantang sekaligus memperkuat kemampuan saya dalam kepemimpinan, manajemen program, dan komunikasi lintas struktur organisasi.",
