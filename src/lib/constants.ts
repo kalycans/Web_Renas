@@ -11,7 +11,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     id: '1',
-    title: "Asisten Dosen - Agama Islam (2023)",
+    title: "Asisten Dosen - Agama Islam",
     description: "Saya dipercaya menjadi asisten dosen dalam mata kuliah Pendidikan Agama Islam.",
     imageUrl: "/image/asdos-rere.jpg",
     imageAlt: "Poster Asisten Dosen",
@@ -52,7 +52,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: '5',
-    title: "Humas & Tiketing - The Power of Communication (2023)",
+    title: "Humas & Tiketing - The Power of Communication",
     description: "Humas sekaligus penanggung jawab Tiketing di acara tahunan HiMaKom.",
     imageUrl: "/image/depoc-rere.jpg",
     imageAlt: "The Power of Communication (2023)",
@@ -62,13 +62,13 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: '6',
-    title: "KOMEDI (Komunikasi Mengabdi) 2024",
+    title: "KOMEDI (Komunikasi Mengabdi)",
     description: "Sebagai ketua pelaksana acara KOMEDI, saya memimpin seluruh proses perencanaan hingga pelaksanaan kegiatan pengabdian masyarakat yang melibatkan mahasiswa Ilmu Komunikasi. ",
-    imageUrl: "/image/komedi-rere.jpg",
+    imageUrl: "public/image/depoc-rere1.jpg",
     imageAlt: "The Power of Communication (2023)",
     reflectiveNarrative:
       "Saya bertanggung jawab atas koordinasi tim, alur kegiatan, dan keberhasilan acara secara keseluruhan. Pengalaman ini membentuk kepemimpinan saya dalam konteks nyata dan memperkuat semangat kolaboratif untuk menciptakan program yang berdampak langsung pada masyarakat.",
-    dataAiHint: "KOMEDI 2024",
+    dataAiHint: "KOMEDI ",
   },
 ]
 
@@ -78,4 +78,4 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { name: 'WhatsApp', url: 'https://wa.me/6285716569714', icon: MessageSquare },
 ]
 
-export const CV_DOWNLOAD_LINK = 'public/CV_RenasTasyaPutri.pdf'
+export const CV_DOWNLOAD_LINK = '/CV_RenasTasyaPutri.pdf'
