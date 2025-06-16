@@ -64,7 +64,7 @@ export const PROJECTS_DATA: Project[] = [
     id: '6',
     title: "KOMEDI (Komunikasi Mengabdi)",
     description: "Sebagai ketua pelaksana acara KOMEDI, saya memimpin seluruh proses perencanaan hingga pelaksanaan kegiatan pengabdian masyarakat yang melibatkan mahasiswa Ilmu Komunikasi. ",
-    imageUrl: "public/image/depoc-rere1.jpg",
+    imageUrl: "/image/komedi-rere.jpg",
     imageAlt: "The Power of Communication (2023)",
     reflectiveNarrative:
       "Saya bertanggung jawab atas koordinasi tim, alur kegiatan, dan keberhasilan acara secara keseluruhan. Pengalaman ini membentuk kepemimpinan saya dalam konteks nyata dan memperkuat semangat kolaboratif untuk menciptakan program yang berdampak langsung pada masyarakat.",
